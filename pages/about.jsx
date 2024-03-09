@@ -16,7 +16,7 @@ const About = () => {
                 a Pokémon trainer. 
             </p>
             <p>
-                And Poke-Next-Web, well, it's exactly the same 
+                And Poke-Next Web, well, it's exactly the same 
                 tool but converted into a web page.
             </p>
             <Image src="/images/charizard.png" width="300" height="300" alt="Charizard" />
