@@ -1,19 +1,21 @@
 import Link from "next/link"
 import Image from "next/image"
 
+import styles from '../../styles/Navbar.module.css'
+
 export const Navbar = () => {
     return (
-        <nav>
-            <div>
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>
                 <Image src="/images/pokeball.png" width="40" height="40" alt="Poke-Next"/>
                 <h1>Poke-Next</h1>
             </div> 
-            <ul>
+            <ul className={styles.link_items}>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" className={styles.links}>Home</Link>
                 </li>
                 <li>
-                    <Link href="/">About</Link>
+                    <Link href="/" className={styles.links}>About</Link>
                 </li>
             </ul>
         </nav>
