@@ -8,6 +8,7 @@ export const Layout = ({ children }) => {
         <>
             <Head>
                 <link rel="shortcut icon" href="/images/favicon.ico" />
+                <title>Poke-Next Web</title>
             </Head>
             <Navbar />
             <main className="main-container">{children}</main>
